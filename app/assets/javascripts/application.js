@@ -12,4 +12,6 @@
 //
 //= require jquery
 //= require jquery_ujs
+//=require js/timeline-min
+//=require js/storyjs-embed.js
 //= require_tree .

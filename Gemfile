@@ -8,6 +8,10 @@ gem 'rails3_serve_static_assets', github: 'heroku/rails3_serve_static_assets'
 
 gem 'pg'
 
+gem 'timelineJS-rails'
+
+gem 'redis'
+
 
 # Gems used only for assets and not required
 # in production environments by default.
