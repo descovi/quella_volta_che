@@ -11,6 +11,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 20130514205453) do
+
+  create_table "events", force: true do |t|
+    t.string   "headline"
+    t.string   "event_type"
+    t.string   "media"
+    t.date     "date"
+    t.text     "text"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
 end

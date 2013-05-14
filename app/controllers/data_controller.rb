@@ -1,5 +1,6 @@
 class DataController < ApplicationController
   def index
-    # render text: "cioa"
+    @all_events = Event.all
+    
   end
 end

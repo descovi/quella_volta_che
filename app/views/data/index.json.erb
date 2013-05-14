@@ -1,0 +1,35 @@
+{
+    "timeline":
+    {
+        "headline":"The Main Headline Goes here",
+        "type":"default",
+        "text":"<p>Intro body text goes here, some HTML is ok</p>",
+        "asset": {
+            "media":"http://yourdomain_or_socialmedialink_goes_here.jpg",
+            "credit":"Credit Name Goes Here",
+            "caption":"Caption text goes here"
+        },
+        <% @all_events.each do |event| %>
+        "date": [
+            {
+                "startDate":"2012,6,10",
+                "endDate":"2012,12,11",
+                "headline":"<%= event.headline %>",
+                "text":"<%= event.text %>",
+                "type":"default",
+                "tag":"This is Optional"
+            }
+        ],
+        <% end %>
+        "era": [
+            {
+                "startDate":"2011,12,10",
+                "endDate":"2011,12,11",
+                "headline":"Headline Goes Here",
+                "text":"<p>Body text goes here, some HTML is OK</p>",
+                "tag":"This is Optional"
+            }
+
+        ]
+    }
+}
